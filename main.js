@@ -51,3 +51,4 @@ function delItem(index) {
   display();
   localStorage.setItem("productList", JSON.stringify(arr));
 }
+// isa
