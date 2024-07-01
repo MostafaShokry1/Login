@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2 class="py-5 fw-bold h-letter">Bookmarker</h2>
+    <hr>
+    <div class="bk my-5">
+      <form class="container px-5 text-center col">
+        <h3 class="fw-bold py-3">Bookmark your favorite sites</h3>
+        <div class="col-9 m-auto"> <label for="ControlInput1" class="form-label fw-bold my-3">Site
+            Name</label>
+            <input type="text" class="form-control form-control-sm" id="ControlInput1" placeholder="Bookmark Name">
+            <p class="aler p-1 fw-bold mt-2" id="aler1">Name is required </p>
+        </div>
+        <div class="col-9 m-auto"> <label for="ControlInput2" class="form-label fw-bold my-3">Site
+            URL</label>
+          <input type="text" class="form-control form-control-sm" id="ControlInput2" placeholder="Website URL">
+          <p class="aler p-1 fw-bold mt-2 " id="aler2">Url Field is required</p>
+        </div>
+        <button type="button" onclick="sendData()" class="btn btn-primary my-3">Submit</button>
+      </form>
+    </div>
+  </div>
+  <section class="container" id="row-item">
+  </section>
+
+  <footer class="container">
+    <hr class="mt-4">
+    <p class="py-3 fw-bold">© 2019 Bookmarker Inc.</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
